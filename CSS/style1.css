@@ -1,0 +1,94 @@
+body{
+    background-color: #ededed;
+}
+
+
+/*Üld*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+/*Päis*/
+
+.banner{
+    background-color: #565656;
+    color: #fff;
+}
+
+.banner h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 90px;
+    margin: 0 20px;
+}
+.navbar{
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    line-height: 50px;
+    margin: 0 20px;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+/*Sisu*/
+.content{
+    padding: 20px;
+}
+
+h2{
+    font-weight: 400px;
+    padding: 10px 0;
+}
+
+
+.content p{
+    padding: 10px 0;
+    line-height: 26px;
+}
+
+.content img{
+    max-width: 100%;
+}
+
+.content ul{
+    padding-left: 40px;
+}
+
+
+
+
+/* h2{color: #ff0000;
+font-family: Arial, Helvetica, sans-serif;
+} */
+/*Jalus*/
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    line-height: 50px;
+    padding: 0 20px;
+}
