@@ -63,14 +63,28 @@
               </nav>
             </div>
         </div>
-        <h1>Pood OÜ</h1>
-        <form action="Tellimine.php" method="get">
-          Teenus 1 <input type="text" name="t1"><br>
-          Teenus 2 <input type="text" name="t2"><br>
+
+        <h1>Auto rent</h1>
+        <form action="#" method="GET">
+          Teenus 1 <input type="number" placeholder="5h" name="teenus1"><br>
+          Teenus 2 <input type="number" placeholder="250€" name="teenus2"><br>
           <input type="submit" value="Saada">
       </form>
+<?php
+if (!empty($_GET['teenus1']) &&
+    !empty($_GET['teenus2'])) {
    
+ 
+$t1 = $_GET['teenus1'];
+$t2 = $_GET['teenus2'];
+$kokku = $t1*$t2;
 
+echo "Teenus 1: $t1 h<br>";
+echo "Teenus 2: $t2 €<br>";
+echo "Hind: $kokku €";
+ }
+
+?>
  
 </div>
 
