@@ -52,7 +52,7 @@
                         <a class="nav-link" href="#">Tooted</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="BSKTteenused.html">Teenused</a>
+                        <a class="nav-link" href="BSKTteenused.php">Teenused</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link rounded-1" style="color: white; background-color: rgb(69, 129, 240);" href="#">Kontakt</a>
