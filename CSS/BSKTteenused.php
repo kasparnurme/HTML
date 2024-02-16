@@ -64,23 +64,24 @@
             </div>
         </div>
 
-        <h1>Auto rent</h1>
+        <h1>Auto liisingu kuumakse</h1>
         <form action="#" method="GET">
-          Teenus 1 <input type="number" placeholder="5h" name="teenus1"><br>
-          Teenus 2 <input type="number" placeholder="250€" name="teenus2"><br>
+          Auto hind: <input type="number" placeholder="5" name="teenus1"><br>
+          Sissemakse: <input type="number" placeholder="250" name="teenus2"><br>
+          Makseperiood (kuudes):<input type="number" placeholder="24" name="teenus3"><br>
           <input type="submit" value="Saada">
       </form>
 <?php
-if (!empty($_GET['teenus1']) &&
-    !empty($_GET['teenus2'])) {
+if (!empty($_GET['hind']) &&
+    !empty($_GET['sissemakse']) &&
+    !empty($_GET['periood'])) {
    
  
-$t1 = $_GET['teenus1'];
-$t2 = $_GET['teenus2'];
-$kokku = $t1*$t2;
+$t1 = $_GET['hind'];
+$t2 = $_GET['sissemakse'];
+$t3 = $_get['periood']
+$kokku = ($t1-$t2)/$t3;
 
-echo "Teenus 1: $t1 h<br>";
-echo "Teenus 2: $t2 €<br>";
 echo "Hind: $kokku €";
  }
 
