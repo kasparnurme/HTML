@@ -79,7 +79,7 @@ if (!empty($_GET['hind']) &&
  
 $t1 = $_GET['hind'];
 $t2 = $_GET['sissemakse'];
-$t3 = $_get['periood']
+$t3 = $_get['periood'];
 $kokku = ($t1-$t2)/$t3;
 
 echo "Hind: $kokku €";
